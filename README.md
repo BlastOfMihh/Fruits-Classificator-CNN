@@ -1,7 +1,7 @@
 # Fruits classificator Model using Convolutional Neural Netoworks
 
 For this model I used a convolutional neural network model that classifies fruits with the following classification :
-
+'''
 model=nn.Sequential(
     nn.Conv2d(in_channels=3, out_channels=10, kernel_size=10),
     nn.ReLU(),
@@ -12,6 +12,7 @@ model=nn.Sequential(
     nn.Linear(1024, 6),
     nn.Softmax(dim=1)
 )
+'''
 Fruit Classification Model Using CNN
 
 I implemented a fruit classification model using a Convolutional Neural Network (CNN) in Python. The goal was to classify fruit and vegetable images into 36 different classes. Here are the key details:
