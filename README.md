@@ -1,6 +1,6 @@
 # Fruits classificator Model using Convolutional Neural Netoworks
 
-For this model I used a convolutional neural network model that classifies fruits with the following classification :
+For this model I used a convolutional neural network model that classifies fruits with the following layers:
 ```
 model=nn.Sequential(
     nn.Conv2d(in_channels=3, out_channels=10, kernel_size=10),
